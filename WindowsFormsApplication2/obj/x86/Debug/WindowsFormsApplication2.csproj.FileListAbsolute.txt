@@ -1,0 +1,29 @@
+C:\Users\Oualid\Desktop\exer\Projet Parapharmacie\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\Oualid\Desktop\exer\Projet Parapharmacie\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Oualid\Desktop\exer\Projet Parapharmacie\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\Oualid\Desktop\exer\Projet Parapharmacie\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\Oualid\Desktop\exer\Projet Parapharmacie\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Oualid\Desktop\exer\Projet Parapharmacie\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+C:\Users\Oualid\Desktop\exer\Projet Parapharmacie\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+C:\Users\Oualid\Desktop\exer\Projet Parapharmacie\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Oualid\Desktop\exer\Projet Parapharmacie\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\pc\Downloads\WindowsFormsApplication2-20200121T192745Z-001\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+C:\Users\pc\Downloads\WindowsFormsApplication2-20200121T192745Z-001\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+C:\Users\pc\Downloads\WindowsFormsApplication2-20200121T192745Z-001\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csprojAssemblyReference.cache
+C:\Users\pc\Downloads\WindowsFormsApplication2-20200121T192745Z-001\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\pc\Downloads\WindowsFormsApplication2-20200121T192745Z-001\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\pc\Downloads\WindowsFormsApplication2-20200121T192745Z-001\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.GenerateResource.cache
+C:\Users\pc\Downloads\WindowsFormsApplication2-20200121T192745Z-001\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.CoreCompileInputs.cache
+C:\Users\pc\Downloads\WindowsFormsApplication2-20200121T192745Z-001\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\pc\Downloads\WindowsFormsApplication2-20200121T192745Z-001\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\pc\Downloads\WindowsFormsApplication2-20200121T192745Z-001\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\pc\Desktop\GestionDeProduits\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\pc\Desktop\GestionDeProduits\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\pc\Desktop\GestionDeProduits\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\pc\Desktop\GestionDeProduits\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\GestionDeProduits\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\pc\Desktop\GestionDeProduits\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\pc\Desktop\GestionDeProduits\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\GestionDeProduits\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\GestionDeProduits\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+C:\Users\pc\Desktop\GestionDeProduits\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
