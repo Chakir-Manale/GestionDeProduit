@@ -15,9 +15,13 @@ namespace WindowsFormsApplication2
         public Form1()
         {
             InitializeComponent();
+
+            btMod.Enabled = false;
+            btRech.Enabled = false;
+
         }
 
-        OleDbConnection cnx = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:/Users/pc/Desktop/GestionDeProduits/WindowsFormsApplication2/Oualid.accdb");
+        OleDbConnection cnx = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:/Users/pc/Desktop/GestionDeProduit/WindowsFormsApplication2/Oualid.accdb");
         OleDbCommand cmd;
       
         public void afficher()
@@ -77,19 +81,45 @@ namespace WindowsFormsApplication2
 
         private void btRech_Click(object sender, EventArgs e)
         {
-          
+            cnx.Open();
+            string req = "select * from Produit where Reference='{0}'";
+
+            string query = string.Format(req, textBRef.Text);
+
+            cmd = new OleDbCommand(query, cnx);
+            OleDbDataReader dr;
+
+            dr = cmd.ExecuteReader();
+
+            if (dr.Read())
+            {
+                textBRef.Text = dr["Reference"].ToString();
+                textBDes.Text = dr["Designation"].ToString();
+                comboBCat.Text = dr["Categorie"].ToString();
+                textBPu.Text = dr["Prix_Unitaire"].ToString();
+                textBTva.Text = dr["TVA"].ToString();
+            }
+            else
+            {
+                MessageBox.Show("Aucun produit avec cette reference n'a été trouvé ");
+            }
+
+            dr.Close();
+            cnx.Close();
         }
 
         private void btMod_Click(object sender, EventArgs e)
         {
             cmd = cnx.CreateCommand();
             cnx.Open();
-            cmd.CommandText = "Update Produit set Désignation=" + textBDes.Text  +",Categorie='" + comboBCat.Text + ",Prix_Unitaire='" + textBPu.Text + "',TVA='" + textBTva.Text + "' where Référence=" + textBRef.Text + "')";
-            cmd.Connection = cnx;
+
+            string req = "UPDATE Produit SET Designation = '"+ textBDes.Text + "' , Categorie = '"+ comboBCat.Text +"' , Prix_Unitaire = '"+ textBPu.Text + "' , TVA =' "+ textBTva.Text +"' WHERE Reference = '"+ textBRef.Text + "' ";
+            cmd = new OleDbCommand(req, cnx);
             cmd.ExecuteNonQuery();
             MessageBox.Show("Produit modifié avec success!");
             clear();
             cnx.Close();
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -114,28 +144,8 @@ namespace WindowsFormsApplication2
 
         private void textBRef_TextChanged(object sender, EventArgs e)
         {
-            cnx.Open();
-            string req = "select * from Produit where Reference='{0}'";
-            
-            string query = string.Format(req, textBRef.Text);
-
-            cmd = new OleDbCommand(req, cnx);
-            OleDbDataReader dr;
-            
-            dr = cmd.ExecuteReader();
-
-            while (dr.Read())
-            {
-                textBRef.Text = dr["Reference"].ToString();
-                textBDes.Text = dr["Designation"].ToString();
-                comboBCat.Text = dr["Categorie"].ToString();
-                textBPu.Text = dr["Prix_Unitaire"].ToString();
-                textBTva.Text = dr["TVA"].ToString();
-            }
-
-            dr.Close();
-            cnx.Close();
-
+            btMod.Enabled = true;
+            btRech.Enabled = true;
         }
     }
 }

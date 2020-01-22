@@ -27,3 +27,13 @@ C:\Users\pc\Desktop\GestionDeProduits\WindowsFormsApplication2\obj\x86\Debug\Win
 C:\Users\pc\Desktop\GestionDeProduits\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\GestionDeProduits\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
 C:\Users\pc\Desktop\GestionDeProduits\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+C:\Users\pc\Desktop\GestionDeProduit\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\pc\Desktop\GestionDeProduit\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\pc\Desktop\GestionDeProduit\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\pc\Desktop\GestionDeProduit\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\GestionDeProduit\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\pc\Desktop\GestionDeProduit\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\pc\Desktop\GestionDeProduit\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\GestionDeProduit\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\GestionDeProduit\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+C:\Users\pc\Desktop\GestionDeProduit\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb

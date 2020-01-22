@@ -45,7 +45,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btFermer = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,9 +55,9 @@
             this.btAjou.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btAjou.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btAjou.ForeColor = System.Drawing.Color.White;
-            this.btAjou.Location = new System.Drawing.Point(642, 19);
+            this.btAjou.Location = new System.Drawing.Point(596, 19);
             this.btAjou.Name = "btAjou";
-            this.btAjou.Size = new System.Drawing.Size(99, 48);
+            this.btAjou.Size = new System.Drawing.Size(145, 48);
             this.btAjou.TabIndex = 0;
             this.btAjou.Text = "Ajouter";
             this.btAjou.UseVisualStyleBackColor = false;
@@ -66,14 +65,14 @@
             // 
             // btMod
             // 
-            this.btMod.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btMod.BackColor = System.Drawing.Color.Gold;
             this.btMod.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btMod.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btMod.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btMod.ForeColor = System.Drawing.Color.White;
-            this.btMod.Location = new System.Drawing.Point(642, 98);
+            this.btMod.Location = new System.Drawing.Point(596, 98);
             this.btMod.Name = "btMod";
-            this.btMod.Size = new System.Drawing.Size(99, 48);
+            this.btMod.Size = new System.Drawing.Size(145, 48);
             this.btMod.TabIndex = 1;
             this.btMod.Text = "Modifier";
             this.btMod.UseVisualStyleBackColor = false;
@@ -81,14 +80,14 @@
             // 
             // btSup
             // 
-            this.btSup.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btSup.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btSup.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btSup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btSup.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSup.ForeColor = System.Drawing.Color.White;
-            this.btSup.Location = new System.Drawing.Point(642, 177);
+            this.btSup.Location = new System.Drawing.Point(596, 177);
             this.btSup.Name = "btSup";
-            this.btSup.Size = new System.Drawing.Size(99, 48);
+            this.btSup.Size = new System.Drawing.Size(145, 48);
             this.btSup.TabIndex = 2;
             this.btSup.Text = "Effacer";
             this.btSup.UseVisualStyleBackColor = false;
@@ -96,14 +95,14 @@
             // 
             // btRech
             // 
-            this.btRech.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btRech.BackColor = System.Drawing.Color.Teal;
             this.btRech.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btRech.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btRech.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btRech.ForeColor = System.Drawing.Color.White;
-            this.btRech.Location = new System.Drawing.Point(642, 256);
+            this.btRech.Location = new System.Drawing.Point(596, 256);
             this.btRech.Name = "btRech";
-            this.btRech.Size = new System.Drawing.Size(99, 48);
+            this.btRech.Size = new System.Drawing.Size(145, 48);
             this.btRech.TabIndex = 3;
             this.btRech.Text = "Recherche";
             this.btRech.UseVisualStyleBackColor = false;
@@ -115,7 +114,7 @@
             this.textBRef.Location = new System.Drawing.Point(118, 19);
             this.textBRef.Multiline = true;
             this.textBRef.Name = "textBRef";
-            this.textBRef.Size = new System.Drawing.Size(108, 28);
+            this.textBRef.Size = new System.Drawing.Size(212, 28);
             this.textBRef.TabIndex = 4;
             this.textBRef.TextChanged += new System.EventHandler(this.textBRef_TextChanged);
             // 
@@ -246,43 +245,30 @@
             this.panel2.ForeColor = System.Drawing.Color.White;
             this.panel2.Location = new System.Drawing.Point(4, 33);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(776, 468);
+            this.panel2.Size = new System.Drawing.Size(776, 375);
             this.panel2.TabIndex = 16;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // btFermer
             // 
-            this.btFermer.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btFermer.BackColor = System.Drawing.Color.Red;
             this.btFermer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btFermer.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btFermer.ForeColor = System.Drawing.Color.White;
-            this.btFermer.Location = new System.Drawing.Point(745, -3);
+            this.btFermer.Location = new System.Drawing.Point(746, -1);
             this.btFermer.Name = "btFermer";
-            this.btFermer.Size = new System.Drawing.Size(37, 36);
+            this.btFermer.Size = new System.Drawing.Size(34, 34);
             this.btFermer.TabIndex = 17;
             this.btFermer.Text = "x";
             this.btFermer.UseVisualStyleBackColor = false;
             this.btFermer.Click += new System.EventHandler(this.btFermer_Click);
             // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(712, -23);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(37, 56);
-            this.button6.TabIndex = 18;
-            this.button6.Text = "_";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
             // Form1
             // 
+            this.AllowDrop = true;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.ClientSize = new System.Drawing.Size(784, 506);
-            this.Controls.Add(this.button6);
+            this.BackColor = System.Drawing.Color.Lavender;
+            this.ClientSize = new System.Drawing.Size(784, 415);
             this.Controls.Add(this.btFermer);
             this.Controls.Add(this.panel2);
             this.Cursor = System.Windows.Forms.Cursors.Default;
@@ -319,7 +305,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btFermer;
-        private System.Windows.Forms.Button button6;
     }
 }
 
